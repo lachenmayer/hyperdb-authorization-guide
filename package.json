@@ -1,12 +1,19 @@
 {
-  "name": "hyperdb-auth-experiments",
+  "name": "hyperdb-authorization-guide",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A deep dive into how authorization works in hyperdb.",
+  "main": "example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node example.js"
   },
   "keywords": [],
   "author": "harry lachenmayer <harrylachenmayer@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "hyperdb": "^3.5.0",
+    "kleur": "^2.0.2",
+    "protocol-buffers": "^4.1.0",
+    "random-access-memory": "^3.0.0"
+  }
 }
