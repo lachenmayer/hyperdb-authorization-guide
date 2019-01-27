@@ -34,7 +34,7 @@ function createDb2(key) {
     const db2 = hyperdb(dataDir + '/db2/', key)
     db2.ready(() => {
       db2.put('example/third', 'db2 was here', () => {
-        db2.put('example/second', 'db2 was here', () => {
+        db2.put('example/fourth', 'db2 was here', () => {
           resolve(db2)
         })
       })
